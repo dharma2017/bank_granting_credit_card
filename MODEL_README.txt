@@ -4,11 +4,11 @@
 ## Model Information
 - **Model Name:** Random Forest (Tuned)
 - **Model Type:** RandomForestClassifier
-- **Training Date:** 2025-11-03 08:41:51
-- **Test Accuracy:** 0.7927
-- **F1 Score:** 0.5004
-- **Precision:** 0.5357
-- **Recall:** 0.4695
+- **Training Date:** 2025-11-03 10:15:28
+- **Test Accuracy:** 0.7767
+- **F1 Score:** 0.5176
+- **Precision:** 0.4955
+- **Recall:** 0.5418
 
 ## Files Included
 1. `best_credit_model.pkl` - Trained model
@@ -22,10 +22,10 @@
 9. `confusion_matrix.pkl` - Confusion matrix and metrics for best model
 
 ## Confusion Matrix Results
-- True Negatives (TN): 4133
-- False Positives (FP): 540
-- False Negatives (FN): 704
-- True Positives (TP): 623
+- True Negatives (TN): 3941
+- False Positives (FP): 732
+- False Negatives (FN): 608
+- True Positives (TP): 719
 
 ## Required Features (28 total)
 1. LIMIT_BAL
@@ -103,4 +103,4 @@ probability = model.predict_proba(input_scaled)
 3. Feature order must match exactly as in feature_names.pkl
 4. Missing values are not expected - handle them before prediction
 
-Generated: 2025-11-03 08:41:51
+Generated: 2025-11-03 10:15:28
