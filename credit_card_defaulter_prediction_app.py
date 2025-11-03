@@ -226,7 +226,7 @@ with tab1:
     
     with col1:
         st.subheader("📋 Basic Information")
-        limit_bal = st.number_input("Credit Limit (NT$)", 
+        limit_bal = st.number_input("Credit Limit", 
                                     min_value=0, 
                                     max_value=1000000, 
                                     value=50000,
@@ -250,7 +250,7 @@ with tab1:
         pay_6 = st.selectbox("April 2005", [-1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9], index=1)
     
     with col3:
-        st.subheader("💰 Bill Amounts (NT$)")
+        st.subheader("💰 Bill Amounts")
         bill_amt1 = st.number_input("September 2005 Bill", 0, 500000, 20000, 1000)
         bill_amt2 = st.number_input("August 2005 Bill", 0, 500000, 20000, 1000)
         bill_amt3 = st.number_input("July 2005 Bill", 0, 500000, 20000, 1000)
@@ -258,7 +258,7 @@ with tab1:
         bill_amt5 = st.number_input("May 2005 Bill", 0, 500000, 20000, 1000)
         bill_amt6 = st.number_input("April 2005 Bill", 0, 500000, 20000, 1000)
         
-        st.subheader("💵 Payment Amounts (NT$)")
+        st.subheader("💵 Payment Amounts")
         pay_amt1 = st.number_input("September 2005 Payment", 0, 100000, 2000, 500)
         pay_amt2 = st.number_input("August 2005 Payment", 0, 100000, 2000, 500)
         pay_amt3 = st.number_input("July 2005 Payment", 0, 100000, 2000, 500)
